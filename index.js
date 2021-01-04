@@ -8,6 +8,7 @@ const union = require('union-value');
 const del = require('unset-value');
 const get = require('get-value');
 const set = require('set-value');
+const _ = require('lodash');
 
 /**
  * Create an instance of `CacheBase`.
@@ -63,7 +64,10 @@ class CacheBase extends Emitter {
    */
 
   set(key, ...rest) {
-    if (isObject(key) || (rest.length === 0 && Array.isArray(key))) {
+    if (isObject(key)) {
+      return _.merge(this[this.prop], key);
+    }
+    if (rest.length === 0 && Array.isArray(key)) {
       return this.visit('set', key, ...rest);
     }
     if (Array.isArray(key)) key = key.join('.');

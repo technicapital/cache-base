@@ -1,7 +1,7 @@
 {
   "name": "@technicapital/cache-base",
   "description": "Basic object cache with `get`, `set`, `del`, and `has` methods for node.js/javascript projects.",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "homepage": "https://github.com/technicapital/cache-base",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
@@ -31,6 +31,7 @@
     "get-value": "3.0.1",
     "has-own-deep": "1.1.0",
     "kind-of": "6.0.3",
+    "lodash": "4.17.20",
     "set-value": "3.0.2",
     "union-value": "2.0.1",
     "unset-value": "1.0.0"

@@ -131,6 +131,13 @@ describe('cache-base', function() {
       assert.equal(app.get('cc'), 'dd');
     });
 
+    it('should merge objects deep on multiple calls', function() {
+      app.set({x: { y: 'y' }});
+      app.set({x: { x: 'x' }});
+      assert.deepStrictEqual(app.cache.x, { y: 'y', x: 'x' });
+      assert.equal(app.get('x.y'), 'y');
+    });
+
     it('should return undefined when not set', function() {
       assert.equal(app.set('a', undefined), app);
     });
