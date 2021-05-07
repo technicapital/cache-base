@@ -1,7 +1,7 @@
 {
   "name": "@technicapital/cache-base",
   "description": "Basic object cache with `get`, `set`, `del`, and `has` methods for node.js/javascript projects.",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "homepage": "https://github.com/technicapital/cache-base",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
@@ -9,7 +9,10 @@
     "(https://github.com/wtgtybhertgeghgtwtg)",
     "(https://github.com/technicapital)"
   ],
-  "repository": "technicapital/cache-base",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicapital/cache-base.git"
+  },
   "bugs": {
     "url": "https://github.com/technicapital/cache-base/issues"
   },
@@ -23,7 +26,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "nyc --reporter=text --reporter=html mocha"
+    "test": "nyc --reporter=text --reporter=html mocha",
+    "changelog": "kacl lint && kacl release"
   },
   "dependencies": {
     "@sellside/emitter": "1.2.1",

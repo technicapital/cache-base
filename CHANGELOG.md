@@ -1,67 +1,39 @@
-# Release history
+# Changelog
 
 All notable changes to this project will be documented in this file.
 
-This changelog's format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and versioning in this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<details>
-  <summary><strong>Guiding Principles</strong></summary>
+## [Unreleased]
 
-- Changelogs are for humans, not machines.
-- There should be an entry for every single version.
-- The same types of changes should be grouped.
-- Versions and sections should be linkable.
-- The latest version comes first.
-- The release date of each versions is displayed.
-- Mention whether you follow Semantic Versioning.
-
-</details>
-
-<details>
-  <summary><strong>Types of changes</strong></summary>
-
-Changelog entries are classified using the following labels _(from [keep-a-changelog](http://keepachangelog.com/)_):
-
-- `Added` for new features.
-- `Changed` for changes in existing functionality.
-- `Deprecated` for soon-to-be removed features.
-- `Removed` for now removed features.
-- `Fixed` for any bug fixes.
-- `Security` in case of vulnerabilities.
-
-</details>
-
+## [4.1.1] - 2021-05-07
+### Changed
+- Upgrade deps
+  - lodash       4.17.20  →  4.17.21
 
 ## [3.0.0] - 2018-01-27
-
-**Changed**
-
+### Changed
 - adds `.prime()` and `.default()` methods
 
-
 ## [2.0.0] - 2017-12-17
-
-**Changed**
-
+### Changed
 - convert to class
 - refactor to allow namespace to be set on constructor, thus `.namespace` was removed from the main export. Please see the readme for details.
 
-
 ## [1.0.1] - 2017-07-22
-
+### Changed
 - run update, lint, update deps
 
-
 ## [0.8.5] - 2017-02-25
-
+### Changed
 - Bump `isobject`.
 - Bump `set-value`.
-- Merge pull request #7 from wtgtybhertgeghgtwtg/bump-dependencies
+- Merge pull request [#7] from wtgtybhertgeghgtwtg/bump-dependencies
 - run udpate
 
 ## [0.8.4] - 2016-05-30
-
+### Changed
 - run update
 - adds `.union` method. resolves https://github.com/jonschlinkert/cache-base/issues/3
 - generate docs
@@ -70,47 +42,47 @@ Changelog entries are classified using the following labels _(from [keep-a-chang
 - generate docs
 
 ## [0.8.2] - 2016-03-02
-
+### Changed
 - handle single arg key as an array
 - generate docs
 
 ## [0.8.1] - 2016-02-29
-
+### Changed
 - ensure value is a non-array object, only clear if `prop` is defined
 
 ## [0.8.0] - 2016-02-09
-
+### Changed
 - run update
 - run update, lint
 - minor refactor
 - generate docs with verb
 
 ## [0.7.1] - 2015-11-23
-
+### Changed
 - update deps
 - lint
 - adds lazy-cache, event emitting
 - events tests
 
 ## [0.7.0] - 2015-11-23
-
+### Changed
 - use eslint, lint
 - refactor, simplify
 
 ## [0.6.0] - 2015-03-11
-
+### Changed
 - fix pick docs
 - lint
 - get rid of deps
 
 ## [0.4.0] - 2015-02-14
-
+### Changed
 - adds `.pick()` and `.omit()` methods
 - adds tests
 - build docs/readme
 
 ## [0.3.0] - 2015-02-13
-
+### Changed
 - adds npmignore
 - adds travis
 - rename
@@ -119,30 +91,30 @@ Changelog entries are classified using the following labels _(from [keep-a-chang
 - build readme
 
 ## [0.2.0] - 2014-11-15
-
+### Changed
 - remove namespace stuff
 - update fixtures
 - update verbfile
 - clean up, refactor a number of methods:
 - update docs, run verb
 
-## 0.1.0
-
+## 0.1.0 - 2014-11-15
+### Changed
 - first commit
 
-[2.0.0]: https://github.com/jonschlinkert/cache-base/compare/1.0.1...2.0.0
-[1.0.1]: https://github.com/jonschlinkert/cache-base/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/jonschlinkert/cache-base/compare/0.8.5...1.0.0
-[0.8.5]: https://github.com/jonschlinkert/cache-base/compare/0.8.4...0.8.5
-[0.8.4]: https://github.com/jonschlinkert/cache-base/compare/0.8.2...0.8.4
-[0.8.2]: https://github.com/jonschlinkert/cache-base/compare/0.8.1...0.8.2
-[0.8.1]: https://github.com/jonschlinkert/cache-base/compare/0.8.0...0.8.1
-[0.8.0]: https://github.com/jonschlinkert/cache-base/compare/0.7.1...0.8.0
-[0.7.1]: https://github.com/jonschlinkert/cache-base/compare/0.7.0...0.7.1
-[0.7.0]: https://github.com/jonschlinkert/cache-base/compare/0.6.0...0.7.0
-[0.6.0]: https://github.com/jonschlinkert/cache-base/compare/0.4.0...0.6.0
-[0.4.0]: https://github.com/jonschlinkert/cache-base/compare/0.3.0...0.4.0
-[0.3.0]: https://github.com/jonschlinkert/cache-base/compare/0.2.0...0.3.0
-
-[keep-a-changelog]: https://github.com/olivierlacan/keep-a-changelog
-
+[Unreleased]: https://github.com/technicapital/cache-base/compare/v4.1.1...HEAD
+[4.1.1]: https://github.com/technicapital/cache-base/compare/v3.0.0...v4.1.1
+[3.0.0]: https://github.com/technicapital/cache-base/compare/v2.0.0...v3.0.0
+[2.0.0]: https://github.com/technicapital/cache-base/compare/v1.0.1...v2.0.0
+[1.0.1]: https://github.com/technicapital/cache-base/compare/v0.8.5...v1.0.1
+[0.8.5]: https://github.com/technicapital/cache-base/compare/v0.8.4...v0.8.5
+[0.8.4]: https://github.com/technicapital/cache-base/compare/v0.8.2...v0.8.4
+[0.8.2]: https://github.com/technicapital/cache-base/compare/v0.8.1...v0.8.2
+[0.8.1]: https://github.com/technicapital/cache-base/compare/v0.8.0...v0.8.1
+[0.8.0]: https://github.com/technicapital/cache-base/compare/v0.7.1...v0.8.0
+[0.7.1]: https://github.com/technicapital/cache-base/compare/v0.7.0...v0.7.1
+[0.7.0]: https://github.com/technicapital/cache-base/compare/v0.6.0...v0.7.0
+[0.6.0]: https://github.com/technicapital/cache-base/compare/v0.4.0...v0.6.0
+[0.4.0]: https://github.com/technicapital/cache-base/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/technicapital/cache-base/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/technicapital/cache-base/compare/v0.1.0...v0.2.0
