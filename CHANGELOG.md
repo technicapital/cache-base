@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Changed
 - Upgrade deps
+  - mocha      9.0.3  →  9.1.1
+  - set-value  4.0.0  →  4.1.0
+
+## [4.2.0] - 2021-09-17
+### Changed
+- Upgrade deps
   - mocha        8.2.1  →  9.0.3
   - set-value    3.0.2  →  4.0.0
   - unset-value  1.0.0  →  2.0.0
@@ -107,7 +113,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - first commit
 
-[Unreleased]: https://github.com/technicapital/cache-base/compare/v4.1.1...HEAD
+[Unreleased]: https://github.com/technicapital/cache-base/compare/v4.2.0...HEAD
+[4.2.0]: https://github.com/technicapital/cache-base/compare/v4.1.1...v4.2.0
 [4.1.1]: https://github.com/technicapital/cache-base/compare/v3.0.0...v4.1.1
 [3.0.0]: https://github.com/technicapital/cache-base/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/technicapital/cache-base/compare/v1.0.1...v2.0.0
