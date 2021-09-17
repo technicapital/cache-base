@@ -36,7 +36,7 @@
     "has-own-deep": "1.1.0",
     "kind-of": "6.0.3",
     "lodash": "4.17.21",
-    "set-value": "4.0.0",
+    "set-value": "4.0.1",
     "union-value": "2.0.1",
     "unset-value": "2.0.0"
   },
